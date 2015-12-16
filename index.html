@@ -859,11 +859,199 @@
 					</div>
 				</section>
 				<!-- OFFICE TOUR 2 End -->
+<br>
+<br>
+
+				<!-- LOCATION -->
+				<section id="location" class="page-section">
+					<div class="container clearfix">
+						<div class="heading-block center">
+							<h2>Our Location</h2>
+							<span>Dr. Goldberg's office is conveniently located at 17 Bridge Street, Suite 204 in Billerica, Massachusetts.</span>
+						</div>
+						
+						<!-- MAP -->
+						<div class="col-md-8 bottommargin">
+							<section id="map" class="gmap" style="height: 590px;"></section>
+							<script type="text/javascript">
+
+								$('#map').gMap({
+
+									address: '17 Bridge Street, Billerica, MA 01821',
+									maptype: 'ROADMAP',
+									zoom: 18,
+									markers: [
+										{
+											address: "17 Bridge Street, Billerica, MA 01821",
+											icon: {
+												image: "images/icons/map-icon-red.png",
+												iconsize: [32, 39],
+												iconanchor: [32,39]
+											}
+										}
+									],
+									doubleclickzoom: false,
+									controls: {
+										panControl: true,
+										zoomControl: true,
+										mapTypeControl: false,
+										scaleControl: false,
+										streetViewControl: false,
+										overviewMapControl: false
+									}
+
+								});
+
+							</script>
+						</div>
+
+						<!-- ADDRESS/CONTACT INFO -->
+						<div class="col-md-4">
+
+							<!-- Contact Info
+							============================================= -->
+							<div class="col_full">
+
+								<div class="details clearfix">
+									<img src="images/goldberg/goldberg-logo-marginless.png" alt="Scott Goldberg, DMD - Logo" id="contact-logo">
+
+									<address>
+										17 Bridge Street #204<br>
+										Billerica, MA 01821<br /><br />
+										<table>
+											<tr><td style="border-bottom: 1px solid #ccc; border-top: 1px solid #ccc;"><strong>Mon:</strong></td><td style="border-bottom: 1px solid #ccc; border-top: 1px solid #ccc; text-align: right;">9am - 7pm</td></tr>
+											<tr><td style="border-bottom: 1px solid #ccc;"><strong>Tue:</strong></td><td style="border-bottom: 1px solid #ccc; text-align: right;">12pm - 9pm</td></tr>
+											<tr><td style="border-bottom: 1px solid #ccc;"><strong>Thu:</strong></td><td style="border-bottom: 1px solid #ccc; text-align: right;">8am - 5pm</td></tr>
+											<tr><td style="border-bottom: 1px solid #ccc;"><strong>Fri:</strong></td><td style="border-bottom: 1px solid #ccc; text-align: right;">7am - 4pm</td></tr>
+										</table>
+									</address>
+								</div>
+
+								<div class="actions clearfix">
+									<p class="new-patient-hotline"><small>New Patient Hotline:</small> <a href="tel:+18888361969">(888) 836-1969</a></p>
+									<p class="existing-patients"><small>Existing Patients Call:</small> <a href="tel:+19786633476">(978) 663-3476</a></p>
+									<a href="#" data-toggle="modal" data-target="#schedule-form" class="button button-3d nomargin btn-block center">Request an Appointment</a>
+								</div>
+
+							</div><!-- Contact Info End -->
+
+							<!-- Modal Contact Form
+							============================================= -->
+
+							<div class="modal fade" id="schedule-form" tabindex="-1" role="dialog" aria-labelledby="schedule-form-modal-label" aria-hidden="true">
+								<div class="modal-dialog">
+					                <form method="post" action="schedule.php">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+												<h4 class="modal-title" id="schedule-form-modal-label">Request an Appointment</h4>
+											</div>
+											<div class="modal-body">
+								                <div class="clearfix">
+								                    <p class="teaser">YES! Please contact me to schedule an appointment or answer any questions I might still have:</p>
+								                </div>
+							                    <table>
+							                        <tr id="person-field">
+							                            <th class="label">
+							                                <label for="person">My name:</label>
+							                            </th>
+							                            <td class="field">
+							                                <input type="text" required name="person" class="input_full" />
+							                            </td>
+							                        </tr>
+							                        <tr id="respond-field">
+							                            <th class="label">
+							                                <label for="respond">Email:</label>
+							                            </th>
+							                            <td class="field">
+							                                <input type="email" required name="respond" class="input_full" />
+							                            </td>
+							                        </tr>
+							                        <tr id="phone-field">
+							                            <th class="label">
+							                                <label for="phone">Phone #:</label>
+							                            </th>
+							                            <td class="field">
+							                                <input type="text" required name="phone" class="input_full" />
+							                            </td>
+							                        </tr>
+							                        <tr id="comments-field">
+							                            <th class="label">
+							                                <label for="comments">Questions?</label>
+							                            </th>
+							                            <td class="field">
+							                                <textarea rows="3" name="comments"></textarea>
+							                                <p><em>Your privacy is our priority. Please do not submit sensitive health or identity information using this form.</em></p>
+							                            </td>
+							                        </tr>
+							                        <tr id="email-field">
+							                            <th class="label">
+							                                <label for="email">Email:</label>
+							                            </th>
+							                            <td class="field">
+							                                <input type="email" name="email" />
+							                            </td>
+							                        </tr>
+                                                    <tr>
+                                                        <td colspan="2">
+                                                            <button type="submit" class="button button-3d nomargin btn-block center">Request Appointment</button>
+                                                        </td>
+                                                    </tr>
+							                    </table>
+
+											</div>
+										</div><!-- /.modal-content -->
+									</form>
+								</div><!-- /.modal-dialog -->
+							</div><!-- /.modal -->
+							<!-- Modal Contact Form End -->
+						</div>
+					</div>
+				</section>
+
 
 
 			</div>
 
 		</section><!-- #content end -->
+
+
+					<!-- Footer
+			============================================= -->
+			<footer id="footer" class="dark">
+
+				<!-- Copyrights
+				============================================= -->
+				<div id="copyrights">
+
+					<div class="container clearfix">
+
+						<div class="col_full">
+							<div class="copyrights-menu copyright-links clearfix">
+								<a href="#home" data-scrollto="#home">Home</a>/
+								<a href="#team" data-scrollto="#team">Team</a>/
+								<a href="#specials" data-scrollto="#specials">Specials</a>/
+								<a href="#tour" data-scrollto="#tour">Tour</a>/
+								<a href="#reviews" data-scrollto="#reviews">Reviews</a>/
+								<a href="#members" data-scrollto="#members">Members</a>/
+								<a href="#services" data-scrollto="#services">Services</a>/
+								<a href="#location" data-scrollto="#location">Location</a>
+							</div>
+							Copyrights &copy; 2015 All Rights Reserved by <a href="http://www.tysonsteele.com" target="_blank" style="color: #bbb;">Tyson Steele Associates</a>.
+						</div>
+
+						<div class="col_full" style="">
+							<a href="https://www.facebook.com/Scott-Goldberg-DMD-257687719085/" target="_blank" class="nobottommargin fright" style="margin-left: 10px;">
+								<img src="images/goldberg/facebook.png" alt="Facebook icon" />
+							</a>
+							<p style="text-align: right; line-height: 16px; margin: 0; float: right;">Check out our current<br />events on Facebook</p>
+						</div>
+					</div>
+
+				</div><!-- #copyrights end -->
+
+			</footer>
+
 
 	</div><!-- #wrapper end -->
 
