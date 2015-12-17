@@ -460,6 +460,18 @@ address {
 	}
 }
 
+/*FOOTER OVERRIDES*/
+
+.dark #copyrights {
+	background: -webkit-linear-gradient(#221f1f, #343538); 
+  background: -o-linear-gradient(#221f1f, #343538); 
+  background: -moz-linear-gradient(#221f1f, #343538); 
+  background: linear-gradient(#221f1f, #343538); 
+  color: #ffffff;
+}
+
+
+/*STYLE FOR POPUP MODAL*/
 table {
 	width: 100%;
 }
