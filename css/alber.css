@@ -16,6 +16,12 @@
 	border-right: none;
 }*/
 
+body{
+	color: #77787b !important;
+	background-color: #ffffff;
+}
+
+
 #primary-menu ul li a {
 	padding: 0 5px;
 }
@@ -95,7 +101,7 @@
 
 /** TEAM OVERRIDES */
 section#team {
-	background-color: #F5FAEF;
+	background-color: #F3EEEA;
 	margin-top: 0;
 	padding-top: 30px;
 	padding-bottom: 30px;
@@ -120,15 +126,8 @@ section#specials {
 	border-top: 1px solid rgba(0, 0, 0, .15);
 	margin-top: 0;
 	padding-top: 30px;
-	background-color: #A5CB4E;
-	background: rgba(165, 203, 78, 1);
-	background: -moz-linear-gradient(-45deg, rgba(165, 203, 78, 1) 0%, rgba(155, 196, 61 ,1) 100%);
-	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(165, 203, 78, 1)), color-stop(100%, rgba(155, 196, 61 ,1)));
-	background: -webkit-linear-gradient(-45deg, rgba(165, 203, 78, 1) 0%, rgba(155, 196, 61 ,1) 100%);
-	background: -o-linear-gradient(-45deg, rgba(165, 203, 78, 1) 0%, rgba(155, 196, 61 ,1) 100%);
-	background: -ms-linear-gradient(-45deg, rgba(165, 203, 78, 1) 0%, rgba(155, 196, 61 ,1) 100%);
-	background: linear-gradient(135deg, rgba(165, 203, 78, 1) 0%, rgba(155, 196, 61 ,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#A5CB4E', endColorstr='#9bc43d', GradientType=1 );
+	background-color: #ffffff;
+	color:;
 }
 
 #specials h2, #specials .heading-block span {
@@ -202,7 +201,7 @@ section#tour {
 	padding-top: 30px;
 	margin-bottom: 0;
 	padding-bottom: 30px;
-	background-color: #F5FAEF;
+	background-color: white;
 }
 
 	.portfolio-item {
@@ -233,8 +232,8 @@ section#reviews {
 	padding-top: 30px;
 	margin-bottom: 0;
 	padding-bottom: 30px;
-	background-image: url('../images/goldberg/slides/testimonials.jpg');
-	background-size: cover;
+	color: red;
+	background-color: #F3EEEA;
 }
 
 .testi-content p {
@@ -263,8 +262,10 @@ section#members {
 	padding-top: 30px;
 	margin-bottom: 0;
 	padding-bottom: 30px;
-	background-color: #F5FAEF;
 	border-bottom: 1px solid #e8e8e8;
+	/*linear-gradient(#221f1f, #343538);*/
+	background-color #ffffff;
+	/*text, call-to-action button bkgd #1c62c5*/
 }
 
 .pricing-box {
@@ -298,6 +299,7 @@ section#services {
 	padding-top: 30px;
 	margin-bottom: 0;
 	padding-bottom: 30px;
+	background-color: white;
 }
 
 .modal-body a {
