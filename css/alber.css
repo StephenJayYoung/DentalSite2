@@ -1,0 +1,35 @@
+
+/*Section color, background color and padding*/
+#calls-to-action{
+	padding-bottom: 60px;
+	padding-top: 60px !important;
+	background-color: #ededed;
+}
+
+#team {
+	padding-top: 60px;
+}
+
+#specials{
+	padding-top: 60px;
+}
+
+#reviews{
+	padding-top: 60px;
+}
+
+#members{
+	padding-top: 60px;
+}
+
+#services{
+	padding-top: 60px;
+}
+
+#tour{
+	padding-top: 60px;
+}
+
+#location{
+	padding-top: 60px;
+}
