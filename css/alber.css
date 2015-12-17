@@ -1,11 +1,11 @@
 /**
  *	colors
  *
- *	olive: 	#aca32c
- *	tan:   	#dfdba8
- * 	brown:	#79642b
- *	steel:	#516b86
- *	action:	#18aede
+ *	
+ *	
+ * 	
+ *	
+ *	
 */
 
 /** MENU OVERRIDES */
@@ -14,6 +14,33 @@
 	padding-right: 15px;
 	margin-right: 15px;
 	border-right: none;
+}*/
+
+#primary-menu ul li a {
+	padding: 0 5px;
+}
+
+#primary-menu > ul > li.current a {
+	color: #A5CB4E;
+	/*text-decoration: underline !important;*/
+}
+
+#primary-menu > ul > li a:hover {
+	color: black;
+}
+
+#header.full-header #primary-menu > ul {
+	margin-right: 10px;
+	padding-right: 0;
+	border-right: none;
+}
+
+/*#logo a img {
+	image-rendering: crisp-edges;
+	box-sizing: border-box;
+	padding-left: 1em;
+	margin-right: 10px;
+	height: auto;
 }*/
 
 body{
@@ -56,6 +83,11 @@ body{
 #calls-to-action {
 	padding: 15px 0 30px 0;
 	margin: 0 auto;
+	background-color: #000000;
+	background: -webkit-linear-gradient(#221f1f, #343538); 
+  background: -o-linear-gradient(#221f1f, #343538); 
+  background: -moz-linear-gradient(#221f1f, #343538); 
+  background: linear-gradient(#221f1f, #343538); 
 }
 
 #calls-to-action .heading-block {
@@ -74,7 +106,7 @@ body{
 }
 
 #calls-to-action .heading-block h2 a {
-	color: #000000;
+	color: #ffffff;
 }
 
 #calls-to-action .heading-block h2 a:hover, #calls-to-action .heading-block h2 a:active {
@@ -91,6 +123,8 @@ body{
 	display: block;
 	margin: 0 auto;
 	text-align: center;
+	background-color: #1c62c5;
+	color: #ffffff;
 }
 
 /*@media (min-width: 768px) {
