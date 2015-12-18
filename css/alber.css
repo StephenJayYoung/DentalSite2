@@ -347,10 +347,6 @@ section#members {
   color: #ffffff !important;
 }
 
-#memberActionColor{
-	color: #ffffff !important;
-}
-
 .pricing-box.pricing-extended .pricing-action-area {
 	background-color: #1ABC9C;
 	color: #ffffff;
@@ -511,6 +507,9 @@ address {
   color: #ffffff;
 }
 
+#copyrights a {
+	color: #ffffff !important;
+}
 
 /*STYLE FOR POPUP MODAL*/
 table {
@@ -539,4 +538,10 @@ table {
 
 	#email-field {
 		display: none;
+	}
+
+	/*CUSTOM BUTTON COLOR*/
+
+	.button{
+		background-color: #1c62c5 !important;
 	}
