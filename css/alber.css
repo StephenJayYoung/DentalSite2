@@ -165,6 +165,21 @@ section#specials {
 	background-color: #ffffff;
 	color:;
 }
+.pricing-title {
+    background-color: #1c62c5;
+}
+
+.pricing-title h3 {
+	color: #ffffff;
+}
+
+.pricing-box.pricing-extended .pricing-meta, .pricing-price, .pricing-price span, .pricing-box.pricing-extended .pricing-action-area .pricing-price span.price-tenure {
+    color: #000000 !important;
+}
+
+#professional-smile-whitening .pricing-title {
+	background-color: #1c62c5 !important;
+}
 
 #specials h2, #specials .heading-block span {
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
