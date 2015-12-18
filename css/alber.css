@@ -121,11 +121,12 @@ body{
 }
 
 #calls-to-action .button {
-	display: block;
 	margin: 0 auto;
 	text-align: center;
 	background-color: #1c62c5;
 	color: #ffffff;
+	margin: 3px 3px 11px 17px;
+	font-size: 13px;
 }
 
 /*@media (min-width: 768px) {
@@ -216,7 +217,7 @@ section#specials {
 }
 
 .dark .pricing-price, .pricing-box.best-price .pricing-price, .pricing-features li, .pricing-box p, .dark .pricing-box.best-price .price-unit, .dark .pricing-box .price-unit {
-	color: #333333;
+	color: #ffffff;
 }
 
 @media (min-width: 768px) {
@@ -267,9 +268,13 @@ section#reviews {
 	padding-top: 30px;
 	margin-bottom: 0;
 	padding-bottom: 30px;
-	color: red;
 	background-color: #F3EEEA;
 }
+
+#reviewsText{
+	color: red;
+}
+
 
 .testi-content p {
 	font-family: "Lato", sans-serif;
@@ -308,6 +313,11 @@ section#members {
 
 .pricing-box {
 	border-radius: 1em;
+	color: #ffffff !important;
+}
+
+.dark .pricing-box.pricing-extended .pricing-meta {
+    color: #ffffff;
 }
 
 .pricing-box.pricing-extended .pricing-action-area {
