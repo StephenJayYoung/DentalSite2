@@ -35,6 +35,14 @@
 	border-right: none;
 }
 
+#primary-menu > ul > li.current a {
+    color: #1c62c5 !important;
+}
+
+#primary-menu > ul > li a:hover{
+    color: #1c62c5 !important;
+}
+
 /*#logo a img {
 	image-rendering: crisp-edges;
 	box-sizing: border-box;
