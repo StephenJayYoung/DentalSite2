@@ -177,6 +177,10 @@ section#specials {
     color: #000000 !important;
 }
 
+#pricingBoxOne{
+	padding-bottom: 25px;
+}
+
 #professional-smile-whitening .pricing-title {
 	background-color: #1c62c5 !important;
 }
