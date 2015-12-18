@@ -236,7 +236,7 @@ section#specials {
 }
 
 .dark .pricing-price, .pricing-box.best-price .pricing-price, .pricing-features li, .pricing-box p, .dark .pricing-box.best-price .price-unit, .dark .pricing-box .price-unit {
-	color: #ffffff;
+	color: #000000 !important;
 }
 
 @media (min-width: 768px) {
@@ -335,8 +335,20 @@ section#members {
 	color: #ffffff !important;
 }
 
+.pricingIconText{
+	color: #ffffff !important;
+}
+
 .dark .pricing-box.pricing-extended .pricing-meta {
     color: #ffffff;
+}
+
+.pricing-box.pricing-extended .pricing-features li {
+  color: #ffffff !important;
+}
+
+#memberActionColor{
+	color: #ffffff !important;
 }
 
 .pricing-box.pricing-extended .pricing-action-area {
