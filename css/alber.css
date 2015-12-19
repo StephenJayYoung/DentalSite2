@@ -492,6 +492,12 @@ section#location {
 	border-top: 1px solid #e8e8e8;
 }
 
+.locationText{
+	font-size: 20px !important;
+}
+
+
+
 #map {
 	box-sizing: border-box;
 	border: 1px solid #bbb;
