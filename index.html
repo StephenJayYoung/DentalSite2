@@ -25,6 +25,7 @@
 	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
 	<link rel="stylesheet" href="css/animate.css" type="text/css" />
 	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+	<link rel="stylesheet" href="socicon/socicon.css" type="text/css" />
 	<!-- Custom Alber css -->
 	<link rel="stylesheet" href="css/alber.css" type="text/css" />
 
@@ -826,58 +827,441 @@
 <br>
 <br>
 
+<!-- Contact Form & Map Overlay Section
+		============================================= -->
+		<section id="map-overlay">
+
+			<div class="container clearfix">
+
+				<!-- Contact Form Overlay
+				============================================= -->
+				<div id="contact-form-overlay-mini" class="clearfix">
+
+					<div class="fancy-title text-center">
+						<h2>Location</h2>
+						<p>2919 Valmont Road, Suite 106
+							Boulder, CO 80301​</p>
+					</div>
+
+					<!-- <div id="contact-form-result" data-notify-type="success" data-notify-msg="<i class=icon-ok-sign></i> Message Sent Successfully!"></div> -->
+
+					<!-- Contact Form
+					============================================= -->
+<!-- 					<form class="nobottommargin" id="template-contactform" name="template-contactform" action="include/sendemail.php" method="post">
+
+						<div class="col_full">
+							<label for="template-contactform-name">Name <small>*</small></label>
+							<input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control required" />
+						</div>
+
+						<div class="col_full">
+							<label for="template-contactform-email">Email <small>*</small></label>
+							<input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control" />
+						</div>
+
+						<div class="clear"></div>
+
+						<div class="col_full">
+							<label for="template-contactform-phone">Phone</label>
+							<input type="text" id="template-contactform-phone" name="template-contactform-phone" value="" class="sm-form-control" />
+						</div>
+
+						<div class="col_full">
+							<label for="template-contactform-service">Services</label>
+							<select id="template-contactform-service" name="template-contactform-service" class="sm-form-control">
+								<option value="">-- Select One --</option>
+								<option value="Wordpress">Wordpress</option>
+								<option value="PHP / MySQL">PHP / MySQL</option>
+								<option value="HTML5 / CSS3">HTML5 / CSS3</option>
+								<option value="Graphic Design">Graphic Design</option>
+							</select>
+						</div>
+
+						<div class="clear"></div>
+
+						<div class="col_full">
+							<label for="template-contactform-subject">Subject <small>*</small></label>
+							<input type="text" id="template-contactform-subject" name="template-contactform-subject" value="" class="required sm-form-control" />
+						</div>
+
+						<div class="col_full">
+							<label for="template-contactform-message">Message <small>*</small></label>
+							<textarea class="required sm-form-control" id="template-contactform-message" name="template-contactform-message" rows="6" cols="30"></textarea>
+						</div>
+
+						<div class="col_full hidden">
+							<input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="sm-form-control" />
+						</div>
+
+						<div class="col_full">
+							<button class="button button-3d nomargin" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Send Message</button>
+						</div>
+
+					</form> -->
+
+					<script type="text/javascript">
+						$("#template-contactform").validate({
+							submitHandler: function(form) {
+								$('.form-process').fadeIn();
+								$(form).ajaxSubmit({
+									target: '#contact-form-result',
+									success: function() {
+										$('.form-process').fadeOut();
+										$('#template-contactform').find('.sm-form-control').val('');
+										$('#contact-form-result').attr('data-notify-msg', $('#contact-form-result').html()).html('');
+										SEMICOLON.widget.notifications($('#contact-form-result'));
+									}
+								});
+							}
+						});
+					</script>
+
+				</div><!-- Contact Form Overlay End -->
+
+			</div>
+
+			<!-- Google Map
+			============================================= -->
+			<section id="google-map" class="gmap"></section>
+
+			<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+			<script type="text/javascript" src="js/jquery.gmap.js"></script>
+
+			<script type="text/javascript">
+
+				$('#google-map').gMap({
+
+					address: 'Melbourne, Australia',
+					maptype: 'ROADMAP',
+					zoom: 14,
+					markers: [
+						{
+							address: "Melbourne, Australia",
+							html: '<div style="width: 300px;"><h4 style="margin-bottom: 8px;">Hi, we\'re <span>Envato</span></h4><p class="nobottommargin">Our mission is to help people to <strong>earn</strong> and to <strong>learn</strong> online. We operate <strong>marketplaces</strong> where hundreds of thousands of people buy and sell digital goods every day, and a network of educational blogs where millions learn <strong>creative skills</strong>.</p></div>',
+							icon: {
+								image: "images/icons/map-icon-red.png",
+								iconsize: [32, 39],
+								iconanchor: [32,39]
+							}
+						}
+					],
+					doubleclickzoom: false,
+					controls: {
+						panControl: true,
+						zoomControl: true,
+						mapTypeControl: true,
+						scaleControl: false,
+						streetViewControl: false,
+						overviewMapControl: false
+					}
+
+				});
+
+			</script><!-- Google Map End -->
+
+		</section><!-- Contact Form & Map Overlay Section End -->
+
+<!-- Footer
+		============================================= -->
+		<footer id="footer" class="dark">
+
+			<div class="container">
+
+				<!-- Footer Widgets
+				============================================= -->
+				<div class="footer-widgets-wrap clearfix">
+
+					<div class="col_two_third">
+
+						<div class="col_one_third">
+
+							<div class="widget clearfix">
+
+								<img src="images/footer-widget-logo.png" alt="" class="footer-logo">
+
+								<p>We believe in <strong>Simple</strong>, <strong>Creative</strong> &amp; <strong>Flexible</strong> Design Standards.</p>
+
+								<div style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;">
+									<address>
+										<strong>Headquarters:</strong><br>
+										795 Folsom Ave, Suite 600<br>
+										San Francisco, CA 94107<br>
+									</address>
+									<abbr title="Phone Number"><strong>Phone:</strong></abbr> (91) 8547 632521<br>
+									<abbr title="Fax"><strong>Fax:</strong></abbr> (91) 11 4752 1433<br>
+									<abbr title="Email Address"><strong>Email:</strong></abbr> info@canvas.com
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="col_one_third">
+
+							<div class="widget widget_links clearfix">
+
+								<h4>Blogroll</h4>
+
+								<ul>
+									<li><a href="http://codex.wordpress.org/">Documentation</a></li>
+									<li><a href="http://wordpress.org/support/forum/requests-and-feedback">Feedback</a></li>
+									<li><a href="http://wordpress.org/extend/plugins/">Plugins</a></li>
+									<li><a href="http://wordpress.org/support/">Support Forums</a></li>
+									<li><a href="http://wordpress.org/extend/themes/">Themes</a></li>
+									<li><a href="http://wordpress.org/news/">WordPress Blog</a></li>
+									<li><a href="http://planet.wordpress.org/">WordPress Planet</a></li>
+								</ul>
+
+							</div>
+
+						</div>
+
+						<div class="col_one_third col_last">
+
+							<div class="widget clearfix">
+								<h4>Recent Posts</h4>
+
+								<div id="post-list-footer">
+									<div class="spost clearfix">
+										<div class="entry-c">
+											<div class="entry-title">
+												<h4><a href="#">Lorem ipsum dolor sit amet, consectetur</a></h4>
+											</div>
+											<ul class="entry-meta">
+												<li>10th July 2014</li>
+											</ul>
+										</div>
+									</div>
+
+									<div class="spost clearfix">
+										<div class="entry-c">
+											<div class="entry-title">
+												<h4><a href="#">Elit Assumenda vel amet dolorum quasi</a></h4>
+											</div>
+											<ul class="entry-meta">
+												<li>10th July 2014</li>
+											</ul>
+										</div>
+									</div>
+
+									<div class="spost clearfix">
+										<div class="entry-c">
+											<div class="entry-title">
+												<h4><a href="#">Debitis nihil placeat, illum est nisi</a></h4>
+											</div>
+											<ul class="entry-meta">
+												<li>10th July 2014</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="col_one_third col_last">
+
+						<div class="widget clearfix" style="margin-bottom: -20px;">
+
+							<div class="row">
+
+								<div class="col-md-6 bottommargin-sm">
+									<div class="counter counter-small"><span data-from="50" data-to="15065421" data-refresh-interval="80" data-speed="3000" data-comma="true"></span></div>
+									<h5 class="nobottommargin">Total Downloads</h5>
+								</div>
+
+								<div class="col-md-6 bottommargin-sm">
+									<div class="counter counter-small"><span data-from="100" data-to="18465" data-refresh-interval="50" data-speed="2000" data-comma="true"></span></div>
+									<h5 class="nobottommargin">Clients</h5>
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="widget subscribe-widget clearfix">
+							<h5><strong>Subscribe</strong> to Our Newsletter to get Important News, Amazing Offers &amp; Inside Scoops:</h5>
+							<div id="widget-subscribe-form-result" data-notify-type="success" data-notify-msg=""></div>
+							<form id="widget-subscribe-form" action="include/subscribe.php" role="form" method="post" class="nobottommargin">
+								<div class="input-group divcenter">
+									<span class="input-group-addon"><i class="icon-email2"></i></span>
+									<input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control required email" placeholder="Enter your Email">
+									<span class="input-group-btn">
+										<button class="btn btn-success" type="submit">Subscribe</button>
+									</span>
+								</div>
+							</form>
+							<script type="text/javascript">
+								$("#widget-subscribe-form").validate({
+									submitHandler: function(form) {
+										$(form).find('.input-group-addon').find('.icon-email2').removeClass('icon-email2').addClass('icon-line-loader icon-spin');
+										$(form).ajaxSubmit({
+											target: '#widget-subscribe-form-result',
+											success: function() {
+												$(form).find('.input-group-addon').find('.icon-line-loader').removeClass('icon-line-loader icon-spin').addClass('icon-email2');
+												$('#widget-subscribe-form').find('.form-control').val('');
+												$('#widget-subscribe-form-result').attr('data-notify-msg', $('#widget-subscribe-form-result').html()).html('');
+												SEMICOLON.widget.notifications($('#widget-subscribe-form-result'));
+											}
+										});
+									}
+								});
+							</script>
+						</div>
+
+						<div class="widget clearfix" style="margin-bottom: -20px;">
+
+							<div class="row">
+
+								<div class="col-md-6 clearfix bottommargin-sm">
+									<a href="#" class="social-icon si-dark si-colored si-facebook nobottommargin" style="margin-right: 10px;">
+										<i class="icon-facebook"></i>
+										<i class="icon-facebook"></i>
+									</a>
+									<a href="#"><small style="display: block; margin-top: 3px;"><strong>Like us</strong><br>on Facebook</small></a>
+								</div>
+								<div class="col-md-6 clearfix">
+									<a href="#" class="social-icon si-dark si-colored si-rss nobottommargin" style="margin-right: 10px;">
+										<i class="icon-rss"></i>
+										<i class="icon-rss"></i>
+									</a>
+									<a href="#"><small style="display: block; margin-top: 3px;"><strong>Subscribe</strong><br>to RSS Feeds</small></a>
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div><!-- .footer-widgets-wrap end -->
+
+			</div>
+
+			<!-- Copyrights
+			============================================= -->
+			<div id="copyrights">
+
+				<div class="container clearfix">
+
+					<div class="col_half">
+						Copyrights &copy; 2014 All Rights Reserved by Canvas Inc.<br>
+						<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
+					</div>
+
+					<div class="col_half col_last tright">
+						<div class="fright clearfix">
+							<a href="#" class="social-icon si-small si-borderless si-facebook">
+								<i class="icon-facebook"></i>
+								<i class="icon-facebook"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-borderless si-twitter">
+								<i class="icon-twitter"></i>
+								<i class="icon-twitter"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-borderless si-gplus">
+								<i class="icon-gplus"></i>
+								<i class="icon-gplus"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-borderless si-pinterest">
+								<i class="icon-pinterest"></i>
+								<i class="icon-pinterest"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-borderless si-vimeo">
+								<i class="icon-vimeo"></i>
+								<i class="icon-vimeo"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-borderless si-github">
+								<i class="icon-github"></i>
+								<i class="icon-github"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-borderless si-yahoo">
+								<i class="icon-yahoo"></i>
+								<i class="icon-yahoo"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-borderless si-linkedin">
+								<i class="icon-linkedin"></i>
+								<i class="icon-linkedin"></i>
+							</a>
+						</div>
+
+						<div class="clear"></div>
+
+						<i class="icon-envelope2"></i> info@canvas.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> +91-11-6541-6369 <span class="middot">&middot;</span> <i class="icon-skype2"></i> CanvasOnSkype
+					</div>
+
+				</div>
+
+			</div><!-- #copyrights end -->
+
+		</footer><!-- #footer end -->
+
+
+
+
+
+
 				<!-- LOCATION -->
-				<section id="location" class="page-section">
+<!-- 				<section id="location" class="page-section">
 					<div class="container clearfix">
 						<div class="heading-block center">
 							<h2>Our Location</h2>
 							<span>​Marc Alber's office is conveniently located at 2919 Valmont Road, Suite 106
 							Boulder, CO 80301​.</span>
-						</div>
+						</div> -->
 						
 						<!-- MAP -->
-						<div class="col-md-8 bottommargin">
-							<section id="map" class="gmap" style="height: 590px;"></section>
+<!-- 						<div class="col-md-8 bottommargin">
+							<section id="map" class="gmap" style="height: 590px;"></section> -->
 							<script type="text/javascript">
 
-								$('#map').gMap({
+								// $('#map').gMap({
 
-									address: '2919 Valmont Road, Suite 106, Boulder, CO 80301​' ,
-									maptype: 'ROADMAP',
-									zoom: 18,
-									markers: [
-										{
-											address: "2919 Valmont Road, Suite 106, Boulder, CO 80301​",
-											icon: {
-												image: "images/icons/map-icon-red.png",
-												iconsize: [32, 39],
-												iconanchor: [32,39]
-											}
-										}
-									],
-									doubleclickzoom: false,
-									controls: {
-										panControl: true,
-										zoomControl: true,
-										mapTypeControl: false,
-										scaleControl: false,
-										streetViewControl: false,
-										overviewMapControl: false
-									}
+								// 	address: '2919 Valmont Road, Suite 106, Boulder, CO 80301​' ,
+								// 	maptype: 'ROADMAP',
+								// 	zoom: 18,
+								// 	markers: [
+								// 		{
+								// 			address: "2919 Valmont Road, Suite 106, Boulder, CO 80301​",
+								// 			icon: {
+								// 				image: "images/icons/map-icon-red.png",
+								// 				iconsize: [32, 39],
+								// 				iconanchor: [32,39]
+								// 			}
+								// 		}
+								// 	],
+								// 	doubleclickzoom: false,
+								// 	controls: {
+								// 		panControl: true,
+								// 		zoomControl: true,
+								// 		mapTypeControl: false,
+								// 		scaleControl: false,
+								// 		streetViewControl: false,
+								// 		overviewMapControl: false
+								// 	}
 
-								});
+								// });
 
 							</script>
 
 
-						</div>
+			<!-- 			</div> -->
 
 						<!-- ADDRESS/CONTACT INFO -->
-						<div class="col-md-4">
+			<!-- 			<div class="col-md-4"> -->
 
 							<!-- Contact Info
 							============================================= -->
-							<div class="col_full">
+<!-- 							<div class="col_full">
 
 								<div class="details clearfix">
 									<img src="" alt="Marc Alber, DMD - Logo" id="contact-logo">
@@ -899,7 +1283,7 @@
 									<a href="#" data-toggle="modal" data-target="#schedule-form" class="button button-3d nomargin btn-block center">Request an Appointment</a>
 								</div>
 
-							</div><!-- Contact Info End -->
+							</div> --><!-- Contact Info End -->
 
 							<!-- Modal Contact Form
 							============================================= -->
@@ -971,24 +1355,59 @@
 								</div><!-- /.modal-dialog -->
 							</div><!-- /.modal -->
 							<!-- Modal Contact Form End -->
-						</div>
+<!-- 						</div>
 					</div>
-				</section>
+				</section> -->
 
 
 
-			</div>
+<!-- 			</div>
 
-		</section><!-- #content end -->
+		</section> --><!-- #content end -->
+
+
+        <!-- BEGIN: LAYOUT/FOOTERS/FOOTER-6 -->
+<!--         <footer id="footer" class="dark">
+        <footer>
+            <div class="c-postfooter c-bg-dark-2 bottomFooter">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-lg-offset-2 text-center">
+                            <a href = "http://www.tysonsteele.com/">
+                            <p class="c-copyright c-font-grey">2015 &copy; Tyson Steele
+                                <span class="c-font-grey-3">All Rights Reserved.</span>
+                            </p>
+                        </a>
+                        </div>
+                        <div class="col-lg-4 text-center">
+                           <ul class="c-content-iconlist-1 c-theme">
+                                <li>
+                                    <a href="https://plus.google.com/113365950434633775608/about"target="_blank"class="socicon-btn socicon-btn-circle socicon-solid c-theme-on-hover socicon-google c-font-light tooltips" data-original-title="Google Plus" data-container="body">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com/paige.m.prather"target="_blank" class="socicon-btn socicon-btn-circle socicon-solid c-theme-on-hover socicon-facebook btn-blue tooltips" data-original-title="Facebook" data-container="body">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com/paige.m.prather"target="_blank" class="" data-original-title="" data-container="body">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer> -->
 
 
 					<!-- Footer
 			============================================= -->
-			<footer id="footer" class="dark">
-
+<!-- 			<footer id="footer" class="dark">
+ -->
 				<!-- Copyrights
 				============================================= -->
-				<div id="copyrights">
+<!-- 				<div id="copyrights">
 
 					<div class="container clearfix">
 
@@ -1013,11 +1432,11 @@
 							</a>
 							<p style="text-align: right; line-height: 16px; margin: 0; float: right;">Check out our current<br />events on Facebook</p>
 						</div>
-					</div>
+					</div> -->
 
-				</div><!-- #copyrights end -->
+	<!-- 			</div> --><!-- #copyrights end -->
 
-			</footer>
+<!-- 			</footer> -->
 
 
 	</div><!-- #wrapper end -->
