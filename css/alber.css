@@ -90,6 +90,13 @@ body{
 
 /** SLIDER OVERRIDES */
 
+@media (max-width: 991px) {
+	body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > ul > li:hover a, body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > ul > li.current a, body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > div > ul > li:hover a, body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > div > ul > li.current a {
+    color: #1c62c5 !important;
+	}
+}	
+
+
 
 /** ACTIONS OVERRIDES */
 #calls-to-action {
