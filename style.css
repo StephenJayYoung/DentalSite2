@@ -54,13 +54,13 @@ dl, dt, dd, ol, ul, li {
 
 body {
 	line-height: 1.5;
-	color: #000000;
+	color: #77787b;
 	font-family: 'Lato', sans-serif;
 }
 
 a {
 	text-decoration: none !important;
-	color: #000000;
+	color: #77787b;
 }
 
 a:hover { color: #222; }

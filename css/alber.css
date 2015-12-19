@@ -36,6 +36,11 @@
 }
 
 #primary-menu > ul > li.current a {
+    color: #000000 !important;
+    text-decoration: none !important;
+}
+
+#primary-menu > ul > li.current a:hover{
     color: #1c62c5 !important;
 }
 
@@ -243,6 +248,10 @@ section#specials {
 	font-weight: bold;
 }
 
+.pricing-price {
+    font-weight: bold;
+}
+
 .dark .pricing-price, .pricing-box.best-price .pricing-price, .pricing-features li, .pricing-box p, .dark .pricing-box.best-price .price-unit, .dark .pricing-box .price-unit {
 	color: #000000 !important;
 }
@@ -345,6 +354,31 @@ section#members {
 
 .pricingIconText{
 	color: #ffffff !important;
+}
+
+.members-pricing .price-unit{
+	color: #ffffff !important;
+}
+
+#membersSign {
+	color: #ffffff !important;
+}
+
+#membersMonth {
+	color: #ffffff !important;
+}
+
+.members-pricing strong {
+	color: #ffffff !important;
+}
+
+.price-tenure {
+	color: #ffffff !important;
+
+}
+
+.dark .pricing-box.pricing-extended .pricing-meta {
+    color: #ffffff !important;
 }
 
 .dark .pricing-box.pricing-extended .pricing-meta {
@@ -553,3 +587,8 @@ table {
 	.button{
 		background-color: #1c62c5 !important;
 	}
+
+
+#gotoTop:hover {
+    background-color: #1c62c5 !important;
+}
