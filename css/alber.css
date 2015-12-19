@@ -540,6 +540,14 @@ address {
 
 /*FOOTER OVERRIDES*/
 
+
+.social-icon i {
+    display: block;
+    position: relative;
+    color: #ffffff;
+}
+
+/*Footer Code below here might not be valid, as footer style was switched prior*/
 .dark #copyrights {
 	background: -webkit-linear-gradient(#221f1f, #343538); 
   background: -o-linear-gradient(#221f1f, #343538); 
