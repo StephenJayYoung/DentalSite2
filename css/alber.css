@@ -546,6 +546,9 @@ address {
 
 /*FOOTER OVERRIDES*/
 
+.tSteeleText{
+	font-size: 19px !important;
+}
 
 .social-icon i {
     display: block;
