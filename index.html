@@ -843,9 +843,17 @@
 							<p>New Patient Hotline
 							(888) 896-8369</p>
 							<p>Existing Patients Call
-							(303) 449-3132
-							<p><a class="button button-3d" href="#" data-toggle="modal" data-target="#schedule-form">Request an Appointment</a></p>
+							(303) 449-3132</p>
+							<h2 class="fancy-title text-center"> Hours</h2>
+							<p>M-Th 8am-5pm<p>
+							<p>Fri 7am-2pm</p>
+							<a class="button button-3d" href="#" data-toggle="modal" data-target="#schedule-form">Request an Appointment</a>
 					</div>
+
+
+				</div><!-- Contact Form Overlay End -->
+				<!-- Not sure what this div below is for - figure that out!  -->
+			</div> 
 
 					<!-- <div id="contact-form-result" data-notify-type="success" data-notify-msg="<i class=icon-ok-sign></i> Message Sent Successfully!"></div> -->
 
@@ -903,26 +911,6 @@
 
 					</form> -->
 
-					<script type="text/javascript">
-						$("#template-contactform").validate({
-							submitHandler: function(form) {
-								$('.form-process').fadeIn();
-								$(form).ajaxSubmit({
-									target: '#contact-form-result',
-									success: function() {
-										$('.form-process').fadeOut();
-										$('#template-contactform').find('.sm-form-control').val('');
-										$('#contact-form-result').attr('data-notify-msg', $('#contact-form-result').html()).html('');
-										SEMICOLON.widget.notifications($('#contact-form-result'));
-									}
-								});
-							}
-						});
-					</script>
-
-				</div><!-- Contact Form Overlay End -->
-
-			</div>
 
 			<!-- Google Map
 			============================================= -->
