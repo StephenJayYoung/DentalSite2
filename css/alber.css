@@ -358,6 +358,13 @@ section#members {
 	color: #ffffff !important;
 }
 
+.dark .pricing-box.pricing-extended .pricing-action-area {
+  background: -webkit-linear-gradient(#221f1f, #343538); 
+  background: -o-linear-gradient(#221f1f, #343538); 
+  background: -moz-linear-gradient(#221f1f, #343538); 
+  background: linear-gradient(#221f1f, #343538); 
+}
+
 .pricingIconText{
 	color: #ffffff !important;
 }
