@@ -523,6 +523,15 @@ max-width: 100px;
 	}
 }
 
+#mobileLogo{
+	max-height: 250px;
+	max-width: 250px;
+	vertical-align: middle;
+}
+
+#map-overlay{
+	margin-top: 50px;
+}
 /*#contact-form-overlay,
 #contact-form-overlay-mobile {
 	position: relative;
