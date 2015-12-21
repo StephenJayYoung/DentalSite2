@@ -152,7 +152,7 @@ body{
 section#team {
 	background-color: #F3EEEA;
 	margin-top: 0;
-	padding-top: 30px;
+	padding-top: 60px;
 	padding-bottom: 30px;
 }
 
@@ -174,7 +174,7 @@ section#team {
 section#specials {
 	border-top: 1px solid rgba(0, 0, 0, .15);
 	margin-top: 0;
-	padding-top: 30px;
+	padding-top: 60px;
 	background-color: #ffffff;
 	color:;
 }
@@ -267,10 +267,12 @@ section#specials {
 	}
 }
 
+
+
 /** TOUR OVERRIDES */
 section#tour {
 	margin-top: 0;
-	padding-top: 30px;
+	padding-top: 60px;
 	margin-bottom: 0;
 	padding-bottom: 30px;
 	background-color: white;
@@ -301,7 +303,7 @@ section#tour {
 /** REVIEWS OVERRIDES */
 section#reviews {
 	margin-top: 0;
-	padding-top: 30px;
+	padding-top: 60px;
 	margin-bottom: 0;
 	padding-bottom: 30px;
 	background-color: #F3EEEA;
@@ -335,7 +337,7 @@ section#reviews {
 /** MEMBERS OVERRIDES */
 section#members {
 	margin-top: 0;
-	padding-top: 30px;
+	padding-top: 60px;
 	margin-bottom: 0;
 	padding-bottom: 30px;
 	border-bottom: 1px solid #e8e8e8;
@@ -420,7 +422,7 @@ section#members {
 /** SERVICES OVERRIDES */
 section#services {
 	margin-top: 0;
-	padding-top: 30px;
+	padding-top: 60px;
 	margin-bottom: 0;
 	padding-bottom: 30px;
 	background-color: white;
@@ -494,7 +496,7 @@ section#links {
 /** CONTACT OVERRIDES */
 section#location {
 	margin-top: 0;
-	padding-top: 30px;
+	padding-top: 60px;
 	margin-bottom: 0;
 	padding-bottom: 30px;
 	border-top: 1px solid #e8e8e8;
