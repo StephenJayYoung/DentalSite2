@@ -56,6 +56,15 @@
 	height: auto;
 }*/
 
+
+/*@media (min-width: 992px) {
+	.standard-logo img
+	{
+		height: 65px;
+		margin: 10px 0 10px 10px;
+	}
+}*/
+
 body{
 	color: #77787b !important;
 	background-color: #ffffff;
@@ -563,6 +572,10 @@ address {
 .tSteeleText{
 	font-size: 19px !important;
 }
+
+/*footer {
+	padding-bottom: 200px;
+}*/
 
 .social-icon i {
     display: block;
