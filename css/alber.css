@@ -124,7 +124,7 @@ body{
 }
 
 #calls-to-action .heading-block h2 a:hover, #calls-to-action .heading-block h2 a:active {
-	color: inherit;
+	color: #ffffff !important;
 	text-decoration: none;
 }
 
