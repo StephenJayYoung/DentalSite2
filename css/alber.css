@@ -502,6 +502,46 @@ section#location {
 	border-top: 1px solid #e8e8e8;
 }
 
+
+@media (max-width: 992px) {
+#google-map{
+	max-height: 300px;
+	}
+}
+
+/*#contact-form-overlay,
+#contact-form-overlay-mobile {
+	position: relative;
+	max-width: 800px;
+	background-color: #FFF;
+	padding: 40px;
+	margin: 0 auto;
+	z-index: 10;
+	border-radius: 4px;
+	box-shadow: 0 1px 10px rgba(0,0,0,0.15);
+}
+
+#contact-form-overlay-mobile {
+	float: right;
+	width: 380px;
+	margin: 0;
+}*/
+
+label.error {
+	margin-top: 5px;
+	color: #E42C3E;
+	font-weight: 400;
+}
+
+label.error { display: none !important; }
+
+.form-control.error,
+.sm-form-control.error { border-color: #E42C3E; }
+
+
+
+
+
 .locationText{
 	font-size: 20px !important;
 }
