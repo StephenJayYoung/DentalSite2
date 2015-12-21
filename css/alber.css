@@ -48,22 +48,7 @@
     color: #1c62c5 !important;
 }
 
-/*#logo a img {
-	image-rendering: crisp-edges;
-	box-sizing: border-box;
-	padding-left: 1em;
-	margin-right: 10px;
-	height: auto;
-}*/
 
-
-/*@media (min-width: 992px) {
-	.standard-logo img
-	{
-		height: 65px;
-		margin: 10px 0 10px 10px;
-	}
-}*/
 
 body{
 	color: #77787b !important;
@@ -341,7 +326,7 @@ section#reviews {
 	section#reviews {
 		padding-top: 10px;
 		padding-bottom: 10px;
-		background-color: #34495E;
+/*		background-color: #34495E;*/
 		background-image: none;
 		background-size: cover;
 	}	

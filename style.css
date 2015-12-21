@@ -10440,7 +10440,7 @@ body:not(.device-touch) .rounded-skill {
 }
 
 .owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
-	background-color: #1ABC9C !important;
+	background-color: #1c62c5 !important;
 	color: #FFF !important;
 	text-decoration: none;
 }
