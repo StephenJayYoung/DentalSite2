@@ -8409,7 +8409,7 @@ body:not(.device-touch) .on-hover.i-overlay {
 
 .social-icon i {
 	display: block;
-	position: relative;
+	position: asolute;
 }
 
 body:not(.device-touch) .social-icon i {
