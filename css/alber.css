@@ -661,7 +661,8 @@ address {
 /*FOOTER OVERRIDES*/
 
 .tSteeleText{
-	font-size: 19px !important;
+	font-size: 15px !important;
+	color: #77787b !important;
 }
 
 
@@ -685,9 +686,9 @@ address {
   color: #ffffff;
 }
 
-#copyrights a {
+/*#copyrights a {
 	color: #ffffff !important;
-}
+}*/
 
 /*STYLE FOR POPUP MODAL*/
 table {
