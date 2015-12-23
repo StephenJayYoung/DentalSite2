@@ -36,6 +36,13 @@
 	/*text-decoration: underline !important;*/
 }
 
+
+@media (max-width: 1100px) and (min-width: 973px) {
+	#header, #header-wrap, #logo img, #primary-menu:not(.style-2), #primary-menu:not(.style-2) > ul {
+	    height: 75px;
+		}
+}
+
 #primary-menu > ul > li a:hover {
 	color: black;
 }
