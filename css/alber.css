@@ -332,8 +332,8 @@ section#specials {
 section#tour {
 	margin-top: 0;
 	padding-top: 60px;
-	margin-bottom: 0;
-	padding-bottom: 30px;
+/*	margin-bottom: 0;*/
+/*	padding-bottom: 60px !important;*/
 	background-color: white;
 }
 
@@ -361,7 +361,7 @@ section#tour {
 
 /** REVIEWS OVERRIDES */
 section#reviews {
-	margin-top: 0;
+	margin-top: 50px;
 	padding-top: 60px;
 	margin-bottom: 0;
 	padding-bottom: 30px;
@@ -555,7 +555,7 @@ section#links {
 /** CONTACT OVERRIDES */
 section#location {
 	margin-top: 70px;
-	padding-top: 60px;
+/*	padding-top: 60px;*/
 	margin-bottom: 0;
 	padding-bottom: 30px;
 	border-top: 1px solid #e8e8e8;
