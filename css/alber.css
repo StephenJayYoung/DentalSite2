@@ -630,6 +630,14 @@ label.error { display: none !important; }
 }
 
 
+#bottomLogo{
+	margin-bottom: 0px !important;
+}
+
+hoursText{
+	margin-bottom: 0px !important;
+}
+
 
 #map {
 	box-sizing: border-box;
