@@ -10,10 +10,6 @@
 
 /** MENU OVERRIDES */
 
-/*#header, #header-wrap, #logo img, #primary-menu:not(.style-2), #primary-menu:not(.style-2) > ul {
-    height: 115px;
-}
-*/
 
 #topButton{
 	font-size: 11px;
@@ -91,14 +87,6 @@ body{
 	padding-right: 0;
 	border-right: none;
 }
-
-/*#logo a img {
-	image-rendering: crisp-edges;
-	box-sizing: border-box;
-	padding-left: 1em;
-	margin-right: 10px;
-	height: auto;
-}*/
 
 /** SLIDER OVERRIDES */
 
@@ -201,11 +189,6 @@ body{
 	font-size: 13px;
 }
 
-/*@media (min-width: 768px) {
-	#calls-to-action {
-		display: none;
-	}
-}*/
 
 /** TEAM OVERRIDES */
 section#team {
@@ -332,8 +315,6 @@ section#specials {
 section#tour {
 	margin-top: 0;
 	padding-top: 60px;
-/*	margin-bottom: 0;*/
-/*	padding-bottom: 60px !important;*/
 	background-color: white;
 }
 
@@ -387,7 +368,6 @@ section#reviews {
 	section#reviews {
 		padding-top: 10px;
 		padding-bottom: 10px;
-/*		background-color: #34495E;*/
 		background-image: none;
 		background-size: cover;
 	}	
@@ -405,19 +385,11 @@ section#members {
   background: -moz-linear-gradient(#221f1f, #343538); 
   background: linear-gradient(#221f1f, #343538); 
   color: #ffffff;
-	/*text, call-to-action button bkgd #1c62c5*/
 }
 
 .pricing-box {
 	border-radius: 1em;
 	color: #ffffff !important;
-}
-
-.dark .pricing-box.pricing-extended .pricing-action-area {
-/*  background: -webkit-linear-gradient(#221f1f, #343538); 
-  background: -o-linear-gradient(#221f1f, #343538); 
-  background: -moz-linear-gradient(#221f1f, #343538); 
-  background: linear-gradient(#221f1f, #343538); */
 }
 
 .pricingIconText{
@@ -555,7 +527,6 @@ section#links {
 /** CONTACT OVERRIDES */
 section#location {
 	margin-top: 70px;
-/*	padding-top: 60px;*/
 	margin-bottom: 0;
 	padding-bottom: 30px;
 	border-top: 1px solid #e8e8e8;
@@ -567,7 +538,6 @@ section#location {
 	background-color: #FFF;
 	padding: 10px;
 	margin: 0 auto;
-/*	z-index: 10;*/
 	border-radius: 4px;
 	box-shadow: 0 1px 10px rgba(0,0,0,0.15);
 }
@@ -592,23 +562,6 @@ max-width: 100px;
 #map-overlay{
 	margin-top: 50px;
 }
-/*#contact-form-overlay,
-#contact-form-overlay-mobile {
-	position: relative;
-	max-width: 800px;
-	background-color: #FFF;
-	padding: 40px;
-	margin: 0 auto;
-	z-index: 10;
-	border-radius: 4px;
-	box-shadow: 0 1px 10px rgba(0,0,0,0.15);
-}
-
-#contact-form-overlay-mobile {
-	float: right;
-	width: 380px;
-	margin: 0;
-}*/
 
 label.error {
 	margin-top: 5px;
@@ -620,10 +573,6 @@ label.error { display: none !important; }
 
 .form-control.error,
 .sm-form-control.error { border-color: #E42C3E; }
-
-
-
-
 
 .locationText{
 	font-size: 20px !important;
@@ -692,12 +641,6 @@ address {
 	color: #77787b !important;
 }
 
-
-
-/*footer {
-	padding-bottom: 200px;
-}*/
-
 .social-icon i {
     display: block;
     position: relative;
@@ -713,9 +656,6 @@ address {
   color: #ffffff;
 }
 
-/*#copyrights a {
-	color: #ffffff !important;
-}*/
 
 /*STYLE FOR POPUP MODAL*/
 table {
